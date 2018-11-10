@@ -3,35 +3,59 @@
     float: right;
     background-color: rgba(34, 12, 12, 0.137);
     font-family: sans-serif;
-    border-bottom: 3px solid red;
+    font-weight: bold;
 }
 
 body {
-    font-family: Helvetica;
+    font-family: Courier;
     background-image: url('../images/bg.png');
     color: white;
     padding: 25px 250px 50px;
+    
 }
 
+.background {
+    background-color: #c36457dc;
+    border: 1px solid black;
+    position: absolute;
+    width: 1000px;
+    border-width: 10px;
+}
 h1 {
     font-family: Helvetica;
     font-weight: normal;
     color:white;
-    background-color: rgba(112, 121, 111, 0.089);
+    background-color: rgba(163, 163, 165, 0.089);
     left: 20px;
     right: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    border-bottom: 5px solid red;
+    border-bottom: 5px solid rgba(199, 40, 29, 0.856);
   }
 
-p {
-    float: right;
-    font-family: Helvetica;
-    font-size: 18pt;
-    color: white;
+h2 {
+    font-family: Courier;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #46484941 ;
+    border-bottom: 3px solid rgba(187, 38, 27, 0.918);
 }
 
+.image1 {
+    float: left;
+    margin: 20px;
+}
+
+p {
+    font-family: Courier;
+    font-size: 18pt;
+    color: white;
+    margin: 20px;
+}
+
+form {
+    font-family: Courier;
+}
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
@@ -39,14 +63,6 @@ input[type=text] {
     box-sizing: border-box;
 }
 
-section {
-    background: rgba(201, 156, 186, 0.548);
-    height: 500px;
-    display: flex;
-    justify-content: right;
-    border: 1px solid black;
-  }
-  
 .submit {
     color:#69C7E8;
     background-color: rgb(8, 3, 12);
@@ -56,7 +72,8 @@ section {
 .image {
     position: relative;
     float: left;
-    padding: 15px;
+    margin: 40px;
+    font-family: Courier;
 }
 
 .image::after {
@@ -68,7 +85,7 @@ section {
     position: absolute;
     left: 35px;
     bottom: 20px;
-    background-color: pink;
+    background-color: rgba(197, 158, 119, 0.767);
     color: black;
     padding-left: 30px;
     padding-right: 30px;
